@@ -1,0 +1,39 @@
+﻿@model Contact
+@{
+	ViewData["Title"] = "UpdateContact";
+	Layout = "~/Views/Layout/Index.cshtml";
+}
+
+<div class="content">
+	<div class="container-fluid">
+		<h4 class="page-title">Yetenekler</h4>
+		<div class="row">
+			<div class="col-md-12">
+				<div class="card">
+					<div class="card-header">
+						<div class="card-title">İletişim Bilgileri Güncelleme Sayfası</div>
+					</div>
+					<div class="card-body">
+						<div class="card-sub">
+							İletişim bilgilerini güncelleme işlemini aşağıdan yapabilirsiniz.
+						</div>
+						<form method="post">
+							<input type="hidden" asp-for="ContactID" />
+							<input type="hidden" asp-for="Description" />
+							<input type="hidden" asp-for="Adress" />
+							<input type="hidden" asp-for="Title" />
+							<label>Telefon Numarası</label>
+							<input type="text" asp-for="Phone" class="form-control" />
+							<br />
+							<label>E Mail Adresi</label>
+							<input type="text" asp-for="Email" class="form-control" />
+							<br />
+							<button class="btn btn-warning">Güncelle</button>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+

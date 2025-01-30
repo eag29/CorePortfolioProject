@@ -1,0 +1,52 @@
+﻿@model List<Portfolio>
+@{
+	int count = 0;
+}
+<section id="works" class="s-works target-section">
+
+	<div class="row narrow section-intro has-bottom-sep">
+		<div class="col-full">
+			<h3>Portfolyo</h3>
+			<h1>Son projelerime göz atabilirsiniz</h1>
+
+			<p class="lead">Aşağıdaki kısımda geliştirdiğim bazı masaüstü ve web tabanlı projelere dair görseller bulunmaktadır.</p>
+		</div>
+	</div>
+
+
+	<div class="row masonry-wrap">
+
+		<div class="masonry">
+
+			@foreach (var item in Model)
+			{
+				<div class="masonry__brick">
+					<div class="item-folio">
+
+						<div class="item-folio__thumb">
+							<a href="@item.ImageUrl" class="thumb-link" title="@item.Title" data-size="1050x700">
+								<img src="@item.ImageUrl">
+								<span class="shadow-overlay"></span>
+							</a>
+						</div>
+
+						<div class="item-folio__text">
+							<h3 class="item-folio__title">
+								@item.Title
+							</h3>
+							<p class="item-folio__cat">
+								@item.SubTitle
+							</p>
+						</div>
+
+						<div class="item-folio__caption">
+							<p>@item.Description</p>
+						</div>
+
+					</div>
+				</div>
+			}
+		</div>
+	</div>
+
+</section> 

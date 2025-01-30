@@ -1,0 +1,52 @@
+﻿@model List<Education>
+@{
+    ViewData["Title"] = "EducationList";
+    Layout = "~/Views/Layout/Index.cshtml";
+}
+
+
+	<div class="content">
+		<div class="container-fluid">
+			<h4 class="page-title">Eğitimler</h4>
+			<div class="row">
+				<div class="col-md-12">
+					<div class="card">
+						<div class="card-header">
+							<div class="card-title">Eğitim Listesi</div>
+						</div>
+						<div class="card-body">
+							<div class="card-sub">
+								Eğitim ile ilgili işlemleri aşağıdan yapabilirsiniz.
+							</div>
+							<table class="table mt-3">
+								<thead>
+									<tr>
+										<th scope="col">#</th>
+										<th scope="col">Üniversite</th>
+										<th scope="col">Fakülte</th>
+										<th scope="col">Bölüm</th>
+									</tr>
+								</thead>
+								<tbody>
+									@foreach (var item in Model)
+									{
+										<tr>
+											<td>@item.EducationID</td>
+											<td>@item.University</td>
+											<td>@item.Faculty</td>
+											<td>@item.Departman</td>
+											<td>@item.Date</td>
+											<td> <a href="/Education/DeleteEducation/@item.EducationID" class="btn btn-danger"> Sil </a> </td>
+											<td> <a href="/Education/UpdateEducation/@item.EducationID" class="btn btn-secondary"> Güncelle </a> </td>
+										</tr>
+									}
+								</tbody>
+							</table>
+							 <a href="/Education/CreateEducation/" class="btn btn-primary"> Eğitim Girişi </a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
