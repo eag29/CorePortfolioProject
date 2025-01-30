@@ -1,1 +1,2 @@
-# MyPortfolio
+🌟
+# Core Portfolio Project
