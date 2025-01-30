@@ -9,6 +9,24 @@ Admin sayfasında ise Eğitim, Yeteneklerim ve İletişim bilgilerinin düzenlem
 
 
 
+# Kullanılan Teknolojiler ve Araçlar:
+
+✔️ 🌐 ASP.NET Core 6.0: Projenin backend altyapısı için kullanıldı.
+
+✔️ 🛠️ Entity Framework Core: ORM aracı olarak kullanılarak veritabanı yönetimi sağlandı.
+
+✔️ 🗂️ SQL Server: Veri depolama ve yönetimi için tercih edildi.
+
+✔️ 🎨 HTML5 & CSS3: Sayfa yapısı ve tasarımı oluşturuldu.
+
+✔️ 📱 Bootstrap: Responsive ve modern bir kullanıcı arayüzü için kullanıldı.
+
+✔️  🛠️  MVC Mimari Yapısı: Model-View-Controller yapısıyla projenin kod yapısı düzenlendi.
+
+✔️ 🧩 Component Partial Yapısı: Yeniden kullanılabilir arayüz bileşenleri oluşturuldu.
+
+
+
 
 # Ana Sayfa
 
