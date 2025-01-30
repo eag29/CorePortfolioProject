@@ -30,13 +30,16 @@ Admin sayfasında ise Eğitim, Yeteneklerim ve İletişim bilgilerinin düzenlem
 
 # Ana Sayfa
 
-![Ana Sayfa](https://github.com/user-attachments/assets/5f11b872-9579-472c-9650-ac7f476e7ac6)
+
 
 
 
 # Hakkımda
 
 ![Hakkımda](https://github.com/user-attachments/assets/c429d5ae-dc02-45bb-ab57-c484d672bebc)
+
+
+![Ana Sayfa](https://github.com/user-attachments/assets/4768ffd3-9ef1-4d3a-b3fc-6df84df905fa)
 
 
 
