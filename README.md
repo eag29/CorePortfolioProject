@@ -1,7 +1,13 @@
 # Core Portfolio Project
 
 Bu proje ASP.NETCORE ile geliştirilmiş bir portfolyo projesidir.
+
+
 Projenin ana sayfasında; hakkımda, eğitim hayatım, projelerim, referanslarım, iletişim gibi bir özgeçmiş içerisinde yer alan başlıklar bulunmaktadır.
+
+Admin sayfasında ise Eğitim, Yeteneklerim ve İletişim bilgilerinin düzenleme işlemleri yer almaktadır.
+
+
 
 
 # Ana Sayfa
