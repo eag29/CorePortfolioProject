@@ -1,4 +1,4 @@
-# Core Portfolio Project
+# 🌟 Core Portfolio Project 
 
 Bu proje ASP.NETCORE ile geliştirilmiş bir portfolyo projesidir.
 
