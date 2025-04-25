@@ -21,7 +21,7 @@ Admin sayfasında ise Eğitim, Yeteneklerim ve İletişim bilgilerinin düzenlem
 
 ✔️ 📱 Bootstrap: Responsive ve modern bir kullanıcı arayüzü için kullanıldı.
 
-✔️  🛠️  MVC Mimari Yapısı: Model-View-Controller yapısıyla projenin kod yapısı düzenlendi.
+✔️ 🛠️ MVC Mimari Yapısı: Model-View-Controller yapısıyla projenin kod yapısı düzenlendi.
 
 ✔️ 🧩 Component Partial Yapısı: Yeniden kullanılabilir arayüz bileşenleri oluşturuldu.
 
